@@ -1,0 +1,48 @@
+html,
+body{
+    background-color: rgb(238, 242, 245);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+.main-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-content{
+    padding: 50px;
+    color: #fff;
+    background-color: #282828;
+    font-size: 22px;
+    text-align: center;    
+    -webkit-box-shadow: 3px 3px 7px #282828;
+    -moz-box-shadow:3px 3px 7px #282828;
+    box-shadow: 3px 3px 7px #282828;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 600px){
+    .main-content{
+        font-size: 18px;
+        padding: 70px 25px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .main-content{
+        padding: 70px 10px;
+    }
+}
+
+.main-link{
+    text-decoration: none;
+    color: #FF5C25;
+}
+.main-link:hover{
+    transition: .4s all ease-in;
+    color: #28B485;
+}
